@@ -1,0 +1,5 @@
+start.sh
+virtual/
+*.pyc
+# instance/
+*.sh
