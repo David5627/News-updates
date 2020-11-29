@@ -2,7 +2,11 @@ from flask import render_template, request, url_for, redirect
 from . import main
 from ..request import  get_sources, get_articles
 
+# from app import app
+# from .request import get_sources
+# from .request import get_articles
 
+# home page
 @main.route('/')
 def index():
 
@@ -10,8 +14,9 @@ def index():
     View root page function that returns the index page and its data
     '''
 
-     title = "Your Day To Day News Updates"
+     title = "welcome to your best broadcasting channel"
      sources = get_sources()
+     #news sources array here, passed then for-looped
      return render_template('index.html', title = title, sources = sources)
 
 
