@@ -14,9 +14,3 @@ def create_app(config_name):
     configure_request(app)
     return app
 
-# app.config.from_object(DevConfig)
-# app.config.from_pyfile('config.py')
-    # return app
-
-# bootstrap = Bootstrap(app)
-# from app import views
