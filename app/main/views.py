@@ -2,11 +2,7 @@ from flask import render_template, request, url_for, redirect
 from . import main
 from ..request import  get_sources, get_articles
 
-# from app import app
-# from .request import get_sources
-# from .request import get_articles
 
-# home page
 @main.route('/')
 def index():
 
