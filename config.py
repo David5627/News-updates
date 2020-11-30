@@ -7,7 +7,7 @@ class Config:
     BASE_URL_SOURCES = 'https://newsapi.org/v2/sources?language=en&apiKey={}'
     BASE_URL_ARTICLES = 'https://newsapi.org/v2/everything?language=en&sources={}&apiKey={}'
     API_KEY = os.environ.get('API_KEY')
-    SECRET_KEY = os.environ.get('SECRET_KEY')
+    SECRET_KEY = os.environ.get('david')
 
 class ProdConfig(Config):
     '''
