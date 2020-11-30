@@ -1,9 +1,7 @@
 # from app import app
 import urllib.request, json
 from .models import Source, Article
-# from .models import Article
-# Article = article.Article
-# Source = source.Source
+
 api_key = None
 base_url = None
 article_url = None
