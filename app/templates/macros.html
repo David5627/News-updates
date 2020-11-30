@@ -3,7 +3,7 @@
 {% for source in sources %}
 <h4 class='name'>{{source.name}}</h4>
 <p class='description'>{{source.description}}</p>
-<button class="seemore"><a href="/articles/{{source.id}}">Check {{source.name}} Articles</a></button>
+<button class="seemore"><a href="/articles/{{source.id}}">READ MORE{{source.name}} </a></button>
 <br><br>
 {% endfor %}
 
@@ -16,7 +16,7 @@
 <p class='description'>{{article.description}}</p>
 <p>{{article.date}}</p>
 
-<button class="seemore"><a href={{article.url}}>Read Article</a></button>
+<button class="seemore"><a href={{article.url}}>Read More</a></button>
 <br>
 <hr><br>
 {% endfor %}
